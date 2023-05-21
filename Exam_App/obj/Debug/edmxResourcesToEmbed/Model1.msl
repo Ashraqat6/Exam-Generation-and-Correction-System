@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ExamSYSModelStoreContainer" CdmEntityContainer="ExamSYSEntities">
+    <EntitySetMapping Name="Choices">
+      <EntityTypeMapping TypeName="ExamSYSModel.Choice">
+        <MappingFragment StoreEntitySet="Choices">
+          <ScalarProperty Name="Q_Id" ColumnName="Q_Id" />
+          <ScalarProperty Name="choice1" ColumnName="choice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Courses">
+      <EntityTypeMapping TypeName="ExamSYSModel.Course">
+        <MappingFragment StoreEntitySet="Course">
+          <ScalarProperty Name="Crs_Id" ColumnName="Crs_Id" />
+          <ScalarProperty Name="Crs_Name" ColumnName="Crs_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departments">
+      <EntityTypeMapping TypeName="ExamSYSModel.Department">
+        <MappingFragment StoreEntitySet="Department">
+          <ScalarProperty Name="Dept_Id" ColumnName="Dept_Id" />
+          <ScalarProperty Name="Dept_Name" ColumnName="Dept_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Exams">
+      <EntityTypeMapping TypeName="ExamSYSModel.Exam">
+        <MappingFragment StoreEntitySet="Exam">
+          <ScalarProperty Name="Ex_Id" ColumnName="Ex_Id" />
+          <ScalarProperty Name="time" ColumnName="time" />
+          <ScalarProperty Name="Crs_Id" ColumnName="Crs_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Instructors">
+      <EntityTypeMapping TypeName="ExamSYSModel.Instructor">
+        <MappingFragment StoreEntitySet="Instructor">
+          <ScalarProperty Name="Ins_Id" ColumnName="Ins_Id" />
+          <ScalarProperty Name="Ins_Name" ColumnName="Ins_Name" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="Dept_Id" ColumnName="Dept_Id" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="age" ColumnName="age" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Questions">
+      <EntityTypeMapping TypeName="ExamSYSModel.Question">
+        <MappingFragment StoreEntitySet="Question">
+          <ScalarProperty Name="Q_Id" ColumnName="Q_Id" />
+          <ScalarProperty Name="Model_Answer" ColumnName="Model_Answer" />
+          <ScalarProperty Name="Q_Title" ColumnName="Q_Title" />
+          <ScalarProperty Name="grade" ColumnName="grade" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="Crs_Id" ColumnName="Crs_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stu_Answer">
+      <EntityTypeMapping TypeName="ExamSYSModel.Stu_Answer">
+        <MappingFragment StoreEntitySet="Stu_Answer">
+          <ScalarProperty Name="Ex_Id" ColumnName="Ex_Id" />
+          <ScalarProperty Name="St_Id" ColumnName="St_Id" />
+          <ScalarProperty Name="Q_Id" ColumnName="Q_Id" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="St_Answer" ColumnName="St_Answer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stud_Course">
+      <EntityTypeMapping TypeName="ExamSYSModel.Stud_Course">
+        <MappingFragment StoreEntitySet="Stud_Course">
+          <ScalarProperty Name="Crs_Id" ColumnName="Crs_Id" />
+          <ScalarProperty Name="St_Id" ColumnName="St_Id" />
+          <ScalarProperty Name="Grade" ColumnName="Grade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="ExamSYSModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="St_Id" ColumnName="St_Id" />
+          <ScalarProperty Name="St_Fname" ColumnName="St_Fname" />
+          <ScalarProperty Name="St_Lname" ColumnName="St_Lname" />
+          <ScalarProperty Name="St_Address" ColumnName="St_Address" />
+          <ScalarProperty Name="St_Age" ColumnName="St_Age" />
+          <ScalarProperty Name="Dept_Id" ColumnName="Dept_Id" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="ExamSYSModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Topics">
+      <EntityTypeMapping TypeName="ExamSYSModel.Topic">
+        <MappingFragment StoreEntitySet="Topic">
+          <ScalarProperty Name="Top_Id" ColumnName="Top_Id" />
+          <ScalarProperty Name="Top_Name" ColumnName="Top_Name" />
+          <ScalarProperty Name="Crs_Id" ColumnName="Crs_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="Exam_Q" TypeName="ExamSYSModel.Exam_Q" StoreEntitySet="Exam_Q">
+      <EndProperty Name="Exam">
+        <ScalarProperty Name="Ex_Id" ColumnName="Ex_Id" />
+      </EndProperty>
+      <EndProperty Name="Question">
+        <ScalarProperty Name="Q_Id" ColumnName="Q_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="Ins_Course" TypeName="ExamSYSModel.Ins_Course" StoreEntitySet="Ins_Course">
+      <EndProperty Name="Course">
+        <ScalarProperty Name="Crs_Id" ColumnName="Crs_Id" />
+      </EndProperty>
+      <EndProperty Name="Instructor">
+        <ScalarProperty Name="Ins_Id" ColumnName="Ins_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="Add_Ins_Course" FunctionName="ExamSYSModel.Store.Add_Ins_Course" />
+    <FunctionImportMapping FunctionImportName="AddAnswer" FunctionName="ExamSYSModel.Store.AddAnswer" />
+    <FunctionImportMapping FunctionImportName="AddToDepartment" FunctionName="ExamSYSModel.Store.AddToDepartment" />
+    <FunctionImportMapping FunctionImportName="AddToInstructor" FunctionName="ExamSYSModel.Store.AddToInstructor" />
+    <FunctionImportMapping FunctionImportName="AddToStudent" FunctionName="ExamSYSModel.Store.AddToStudent" />
+    <FunctionImportMapping FunctionImportName="course_topics" FunctionName="ExamSYSModel.Store.course_topics" />
+    <FunctionImportMapping FunctionImportName="Delete_Choice" FunctionName="ExamSYSModel.Store.Delete_Choice" />
+    <FunctionImportMapping FunctionImportName="delete_course" FunctionName="ExamSYSModel.Store.delete_course" />
+    <FunctionImportMapping FunctionImportName="delete_exam" FunctionName="ExamSYSModel.Store.delete_exam" />
+    <FunctionImportMapping FunctionImportName="Delete_Question" FunctionName="ExamSYSModel.Store.Delete_Question" />
+    <FunctionImportMapping FunctionImportName="delete_topic" FunctionName="ExamSYSModel.Store.delete_topic" />
+    <FunctionImportMapping FunctionImportName="DeleteAnswer" FunctionName="ExamSYSModel.Store.DeleteAnswer" />
+    <FunctionImportMapping FunctionImportName="DeleteFromDepartment" FunctionName="ExamSYSModel.Store.DeleteFromDepartment" />
+    <FunctionImportMapping FunctionImportName="DeleteFromInstructor" FunctionName="ExamSYSModel.Store.DeleteFromInstructor" />
+    <FunctionImportMapping FunctionImportName="Deleteinscourse" FunctionName="ExamSYSModel.Store.Deleteinscourse" />
+    <FunctionImportMapping FunctionImportName="DeleteStudentCourseGrade" FunctionName="ExamSYSModel.Store.DeleteStudentCourseGrade" />
+    <FunctionImportMapping FunctionImportName="DeleteStudentRecord" FunctionName="ExamSYSModel.Store.DeleteStudentRecord" />
+    <FunctionImportMapping FunctionImportName="exam_Questions_choices" FunctionName="ExamSYSModel.Store.exam_Questions_choices">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ExamSYSModel.exam_Questions_choices_Result">
+          <ScalarProperty Name="Q_Id" ColumnName="Q_Id" />
+          <ScalarProperty Name="Q_Title" ColumnName="Q_Title" />
+          <ScalarProperty Name="Model_Answer" ColumnName="Model_Answer" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="choice" ColumnName="choice" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ExamCorrection" FunctionName="ExamSYSModel.Store.ExamCorrection" />
+    <FunctionImportMapping FunctionImportName="GenerateExam" FunctionName="ExamSYSModel.Store.GenerateExam" />
+    <FunctionImportMapping FunctionImportName="Insert_Choices" FunctionName="ExamSYSModel.Store.Insert_Choices" />
+    <FunctionImportMapping FunctionImportName="Insert_Question" FunctionName="ExamSYSModel.Store.Insert_Question" />
+    <FunctionImportMapping FunctionImportName="NameOfCourseAndNumOfStudByInsId" FunctionName="ExamSYSModel.Store.NameOfCourseAndNumOfStudByInsId">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ExamSYSModel.NameOfCourseAndNumOfStudByInsId_Result">
+          <ScalarProperty Name="st_num" ColumnName="st_num" />
+          <ScalarProperty Name="Crs_Name" ColumnName="Crs_Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="new_course" FunctionName="ExamSYSModel.Store.new_course" />
+    <FunctionImportMapping FunctionImportName="new_exam" FunctionName="ExamSYSModel.Store.new_exam" />
+    <FunctionImportMapping FunctionImportName="new_topic" FunctionName="ExamSYSModel.Store.new_topic" />
+    <FunctionImportMapping FunctionImportName="SelectStudentAnswer" FunctionName="ExamSYSModel.Store.SelectStudentAnswer">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ExamSYSModel.SelectStudentAnswer_Result">
+          <ScalarProperty Name="Ex_Id" ColumnName="Ex_Id" />
+          <ScalarProperty Name="St_Id" ColumnName="St_Id" />
+          <ScalarProperty Name="Q_Id" ColumnName="Q_Id" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="St_Answer" ColumnName="St_Answer" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ShowExam" FunctionName="ExamSYSModel.Store.ShowExam" />
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="ExamSYSModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="ExamSYSModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="ExamSYSModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="ExamSYSModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ExamSYSModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="ExamSYSModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ExamSYSModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="ExamSYSModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="ExamSYSModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="StudentCourseGrade" FunctionName="ExamSYSModel.Store.StudentCourseGrade" />
+    <FunctionImportMapping FunctionImportName="StudentGradesById" FunctionName="ExamSYSModel.Store.StudentGradesById" />
+    <FunctionImportMapping FunctionImportName="StudentInfoByDeptId" FunctionName="ExamSYSModel.Store.StudentInfoByDeptId">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ExamSYSModel.StudentInfoByDeptId_Result">
+          <ScalarProperty Name="St_Id" ColumnName="St_Id" />
+          <ScalarProperty Name="St_Fname" ColumnName="St_Fname" />
+          <ScalarProperty Name="St_Lname" ColumnName="St_Lname" />
+          <ScalarProperty Name="St_Address" ColumnName="St_Address" />
+          <ScalarProperty Name="St_Age" ColumnName="St_Age" />
+          <ScalarProperty Name="Dept_Id" ColumnName="Dept_Id" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="update_course" FunctionName="ExamSYSModel.Store.update_course" />
+    <FunctionImportMapping FunctionImportName="update_exam" FunctionName="ExamSYSModel.Store.update_exam" />
+    <FunctionImportMapping FunctionImportName="Update_ins_course" FunctionName="ExamSYSModel.Store.Update_ins_course" />
+    <FunctionImportMapping FunctionImportName="Update_Question" FunctionName="ExamSYSModel.Store.Update_Question" />
+    <FunctionImportMapping FunctionImportName="update_question_choice" FunctionName="ExamSYSModel.Store.update_question_choice" />
+    <FunctionImportMapping FunctionImportName="update_topic" FunctionName="ExamSYSModel.Store.update_topic" />
+    <FunctionImportMapping FunctionImportName="UpdateDepartmentName" FunctionName="ExamSYSModel.Store.UpdateDepartmentName" />
+    <FunctionImportMapping FunctionImportName="UpdateInstructor" FunctionName="ExamSYSModel.Store.UpdateInstructor" />
+    <FunctionImportMapping FunctionImportName="UpdateStudentAnswer" FunctionName="ExamSYSModel.Store.UpdateStudentAnswer" />
+    <FunctionImportMapping FunctionImportName="UpdateStudentCourseGrade" FunctionName="ExamSYSModel.Store.UpdateStudentCourseGrade" />
+    <FunctionImportMapping FunctionImportName="UpdateStudentRecord" FunctionName="ExamSYSModel.Store.UpdateStudentRecord" />
+    <FunctionImportMapping FunctionImportName="ViewQuest_and_Ans_for_Student" FunctionName="ExamSYSModel.Store.ViewQuest_and_Ans_for_Student">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ExamSYSModel.ViewQuest_and_Ans_for_Student_Result">
+          <ScalarProperty Name="Q_Title" ColumnName="Q_Title" />
+          <ScalarProperty Name="St_Answer" ColumnName="St_Answer" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

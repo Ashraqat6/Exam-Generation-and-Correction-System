@@ -1,0 +1,72 @@
+C:\Users\amira\source\repos\sql_project\obj\Debug\sql_project.csproj.AssemblyReference.cache
+C:\Users\amira\source\repos\sql_project\obj\Debug\sql_project.csproj.SuggestedBindingRedirects.cache
+C:\Users\amira\source\repos\sql_project\obj\Debug\sql_project.Properties.Resources.resources
+C:\Users\amira\source\repos\sql_project\obj\Debug\sql_project.csproj.GenerateResource.cache
+C:\Users\amira\source\repos\sql_project\obj\Debug\sql_project.csproj.CoreCompileInputs.cache
+C:\Users\amira\source\repos\sql_project\bin\Debug\sql_project.exe.config
+C:\Users\amira\source\repos\sql_project\bin\Debug\sql_project.exe
+C:\Users\amira\source\repos\sql_project\bin\Debug\sql_project.pdb
+C:\Users\amira\source\repos\sql_project\obj\Debug\sql_project.exe
+C:\Users\amira\source\repos\sql_project\obj\Debug\sql_project.pdb
+C:\Users\amira\source\repos\sql_project\obj\Debug\sql_project.Exam_student.resources
+C:\Users\amira\source\repos\sql_project\obj\Debug\sql_project.student_courses.resources
+C:\Users\amira\source\repos\sql_project\bin\Debug\EntityFramework.dll
+C:\Users\amira\source\repos\sql_project\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\amira\source\repos\sql_project\bin\Debug\EntityFramework.xml
+C:\Users\amira\source\repos\sql_project\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\amira\source\repos\sql_project\obj\Debug\sql_project.csproj.CopyComplete
+C:\Users\amira\source\repos\sql_project\obj\Debug\sql_project.Form1.resources
+D:\iti 9 months scholarship program\Projects\SQL\sql_project\obj\Debug\sql_project.csproj.AssemblyReference.cache
+D:\iti 9 months scholarship program\Projects\SQL\sql_project\obj\Debug\sql_project.csproj.SuggestedBindingRedirects.cache
+D:\iti 9 months scholarship program\Projects\SQL\sql_project\obj\Debug\sql_project.exe
+D:\iti 9 months scholarship program\Projects\SQL\sql_project\obj\Debug\sql_project.pdb
+D:\iti 9 months scholarship program\Projects\SQL\sql_project\bin\Debug\sql_project.exe.config
+D:\iti 9 months scholarship program\Projects\SQL\sql_project\bin\Debug\sql_project.exe
+D:\iti 9 months scholarship program\Projects\SQL\sql_project\bin\Debug\sql_project.pdb
+D:\iti 9 months scholarship program\Projects\SQL\sql_project\bin\Debug\EntityFramework.dll
+D:\iti 9 months scholarship program\Projects\SQL\sql_project\bin\Debug\EntityFramework.SqlServer.dll
+D:\iti 9 months scholarship program\Projects\SQL\sql_project\bin\Debug\EntityFramework.xml
+D:\iti 9 months scholarship program\Projects\SQL\sql_project\bin\Debug\EntityFramework.SqlServer.xml
+D:\iti 9 months scholarship program\Projects\SQL\sql_project\obj\Debug\sql_project.Exam_student.resources
+D:\iti 9 months scholarship program\Projects\SQL\sql_project\obj\Debug\sql_project.Form1.resources
+D:\iti 9 months scholarship program\Projects\SQL\sql_project\obj\Debug\sql_project.Properties.Resources.resources
+D:\iti 9 months scholarship program\Projects\SQL\sql_project\obj\Debug\sql_project.student_courses.resources
+D:\iti 9 months scholarship program\Projects\SQL\sql_project\obj\Debug\sql_project.csproj.GenerateResource.cache
+D:\iti 9 months scholarship program\Projects\SQL\sql_project\obj\Debug\sql_project.csproj.CoreCompileInputs.cache
+D:\iti 9 months scholarship program\Projects\SQL\sql_project\obj\Debug\sql_project.csproj.CopyComplete
+C:\Users\amira\Source\Repos\Exam_App\bin\Debug\sql_project.exe.config
+C:\Users\amira\Source\Repos\Exam_App\bin\Debug\sql_project.exe
+C:\Users\amira\Source\Repos\Exam_App\bin\Debug\sql_project.pdb
+C:\Users\amira\Source\Repos\Exam_App\bin\Debug\EntityFramework.dll
+C:\Users\amira\Source\Repos\Exam_App\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\amira\Source\Repos\Exam_App\bin\Debug\EntityFramework.xml
+C:\Users\amira\Source\Repos\Exam_App\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\amira\Source\Repos\Exam_App\obj\Debug\sql_project.csproj.AssemblyReference.cache
+C:\Users\amira\Source\Repos\Exam_App\obj\Debug\sql_project.csproj.SuggestedBindingRedirects.cache
+C:\Users\amira\Source\Repos\Exam_App\obj\Debug\sql_project.Exam_student.resources
+C:\Users\amira\Source\Repos\Exam_App\obj\Debug\sql_project.Form1.resources
+C:\Users\amira\Source\Repos\Exam_App\obj\Debug\sql_project.Properties.Resources.resources
+C:\Users\amira\Source\Repos\Exam_App\obj\Debug\sql_project.student_courses.resources
+C:\Users\amira\Source\Repos\Exam_App\obj\Debug\sql_project.csproj.GenerateResource.cache
+C:\Users\amira\Source\Repos\Exam_App\obj\Debug\sql_project.csproj.CoreCompileInputs.cache
+C:\Users\amira\Source\Repos\Exam_App\obj\Debug\sql_project.csproj.CopyComplete
+C:\Users\amira\Source\Repos\Exam_App\obj\Debug\sql_project.exe
+C:\Users\amira\Source\Repos\Exam_App\obj\Debug\sql_project.pdb
+D:\iti 9 months scholarship program\Projects\SQL\Exam_App\bin\Debug\sql_project.exe.config
+D:\iti 9 months scholarship program\Projects\SQL\Exam_App\bin\Debug\sql_project.exe
+D:\iti 9 months scholarship program\Projects\SQL\Exam_App\bin\Debug\sql_project.pdb
+D:\iti 9 months scholarship program\Projects\SQL\Exam_App\bin\Debug\EntityFramework.dll
+D:\iti 9 months scholarship program\Projects\SQL\Exam_App\bin\Debug\EntityFramework.SqlServer.dll
+D:\iti 9 months scholarship program\Projects\SQL\Exam_App\bin\Debug\EntityFramework.xml
+D:\iti 9 months scholarship program\Projects\SQL\Exam_App\bin\Debug\EntityFramework.SqlServer.xml
+D:\iti 9 months scholarship program\Projects\SQL\Exam_App\obj\Debug\sql_project.csproj.AssemblyReference.cache
+D:\iti 9 months scholarship program\Projects\SQL\Exam_App\obj\Debug\sql_project.csproj.SuggestedBindingRedirects.cache
+D:\iti 9 months scholarship program\Projects\SQL\Exam_App\obj\Debug\sql_project.Exam_student.resources
+D:\iti 9 months scholarship program\Projects\SQL\Exam_App\obj\Debug\sql_project.Form1.resources
+D:\iti 9 months scholarship program\Projects\SQL\Exam_App\obj\Debug\sql_project.Properties.Resources.resources
+D:\iti 9 months scholarship program\Projects\SQL\Exam_App\obj\Debug\sql_project.student_courses.resources
+D:\iti 9 months scholarship program\Projects\SQL\Exam_App\obj\Debug\sql_project.csproj.GenerateResource.cache
+D:\iti 9 months scholarship program\Projects\SQL\Exam_App\obj\Debug\sql_project.csproj.CoreCompileInputs.cache
+D:\iti 9 months scholarship program\Projects\SQL\Exam_App\obj\Debug\sql_project.csproj.CopyComplete
+D:\iti 9 months scholarship program\Projects\SQL\Exam_App\obj\Debug\sql_project.exe
+D:\iti 9 months scholarship program\Projects\SQL\Exam_App\obj\Debug\sql_project.pdb
